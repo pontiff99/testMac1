@@ -1,7 +1,7 @@
-OBJS = main.o
+OBJS = main.o prints.o
 CC = gcc
 
-all: testMac1 exec
+all: testMac1
 
 exec: 
 	./testMac1
